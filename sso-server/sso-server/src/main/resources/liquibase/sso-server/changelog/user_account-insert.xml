@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="(generated)" id="1536745145236-7">
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="33"/>
+            <column name="email" value="test@test.com"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="test1"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="test2"/>
+            <column name="password" value="d033e22ae348aeb5660fc2140aec35850c4da997"/>
+            <column name="username" value="test"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="9"/>
+            <column name="email" value="Evgeny.Navolochny@dktdigital.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Евгений"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Наволочный"/>
+            <column name="password" value="852322df6627ee9bf56f72fa664b69489a955faf"/>
+            <column name="username" value="Evgeny.Navolochny@dktdigital.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="20"/>
+            <column name="email" value="Anna.Lukianova@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Anna"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Lukianova"/>
+            <column name="password" value="8c55b6d92a27751e23692faaab4c98538956c533"/>
+            <column name="username" value="Anna.Lukianova@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="21"/>
+            <column name="email" value="Sergei.Mukhanov+1@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Sergei"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Mukhanov"/>
+            <column name="password" value="0507027688b26d0873ce593a4334f0d8a6e3ae20"/>
+            <column name="username" value="Sergei.Mukhanov+1@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="23"/>
+            <column name="email" value="guzi@carbtc.net"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Иван"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Иванов"/>
+            <column name="password" value="e466a36c8ec54097d6b921aa8f8cff600739ebb0"/>
+            <column name="username" value="guzi@carbtc.net"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="49"/>
+            <column name="email" value="alexandra.arakelova@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Alexandra"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Arakelova"/>
+            <column name="password" value="78d9f3e19d48c15c72ab21b5811a823bc1f49542"/>
+            <column name="username" value="alexandra.arakelova@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="52"/>
+            <column name="email" value="sergei.shuskov@dktbenchmark.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Sergei"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Shuskov"/>
+            <column name="password" value="49988a47cd1902227cdfd118688402419f449483"/>
+            <column name="username" value="sergei.shuskov@dktbenchmark.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="55"/>
+            <column name="email" value="smikhailova@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Svetlana"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Mikhailova"/>
+            <column name="password" value="e1ea66eaaa7af76ba4f0e130e10ceb09ee4185ad"/>
+            <column name="username" value="smikhailova@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="66"/>
+            <column name="email" value="Sergey.Kasyanov@dktdigital.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Sergey"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Kasyanov"/>
+            <column name="password" value="15664cd41500bd11b95b8b9c1286c9c9c5dc3cc5"/>
+            <column name="username" value="Sergey.Kasyanov@dktdigital.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="2"/>
+            <column name="email" value="x5@a.ru"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="X"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="5"/>
+            <column name="password" value="20eabe5d64b0e216796e834f52d61fd0b70332fc"/>
+            <column name="username" value="x5@a.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="4"/>
+            <column name="email" value="a2@a.ru"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="test"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="admin"/>
+            <column name="password" value="40bd001563085fc35165329ea1ff5c5ecbdbbeef"/>
+            <column name="username" value="a2@a.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="13"/>
+            <column name="email" value="111@aaa.ru"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="aaa"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="bbb"/>
+            <column name="password" value="6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2"/>
+            <column name="username" value="111@aaa.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="19"/>
+            <column name="email" value="nikolay.simon@dktlab.io"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="Nikolay"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Simon"/>
+            <column name="password" value="f549cbc0b37924ad1dca377108247f9fa7b9a0c0"/>
+            <column name="username" value="nikolay.simon@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="25"/>
+            <column name="email" value="kasi@twocowmail.net"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Байер"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Мюнхен"/>
+            <column name="password" value="a699f0fb11e1cc10258b40b2e97e789410215ce1"/>
+            <column name="username" value="kasi@twocowmail.net"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="28"/>
+            <column name="email" value="Evgeny.Navolochny@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Eugene"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="N"/>
+            <column name="password" value="1cd149fa56875cb177d93a282137c3f158147be8"/>
+            <column name="username" value="Evgeny.Navolochny@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="3"/>
+            <column name="email" value="x6@a.ru"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="Планер"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Ф"/>
+            <column name="password" value="20eabe5d64b0e216796e834f52d61fd0b70332fc"/>
+            <column name="username" value="x6@a.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="17"/>
+            <column name="email" value="1@1.ru"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="Another"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Test"/>
+            <column name="password" value="7c4a8d09ca3762af61e59520943dc26494f8941b"/>
+            <column name="username" value="1@1.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="18"/>
+            <column name="email" value="Evgeny.Navolochny@test.ru"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="Masha"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Pavlova"/>
+            <column name="password" value="852322df6627ee9bf56f72fa664b69489a955faf"/>
+            <column name="username" value="Evgeny.Navolochny@test.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="10"/>
+            <column name="email" value="test_planer@dktdigital.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="test"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="test"/>
+            <column name="password" value="1cd149fa56875cb177d93a282137c3f158147be8"/>
+            <column name="username" value="test_planer@dktdigital.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="11"/>
+            <column name="email" value="planner@a.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="planner"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="planner"/>
+            <column name="password" value="40bd001563085fc35165329ea1ff5c5ecbdbbeef"/>
+            <column name="username" value="planner@a.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="24"/>
+            <column name="email" value="jonubi@carbtc.net"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Илья"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Ильин"/>
+            <column name="password" value="4d272e4be9428a9ef4df54debd3fbc22d36f354d"/>
+            <column name="username" value="jonubi@carbtc.net"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="29"/>
+            <column name="email" value="1@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="s"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="m"/>
+            <column name="password" value="bc4bc2f6afb95f8e2fddcfc4cc22e05875744a76"/>
+            <column name="username" value="1@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="34"/>
+            <column name="email" value="rayman5@mail.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Leonid"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Nikulin"/>
+            <column name="password" value="01bd0a0b3bfdb632fc1e2e93aefecd518f876c50"/>
+            <column name="username" value="rayman5@mail.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="35"/>
+            <column name="email" value="Lubov.Astakhova@mbww.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Lubov"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Astakhova"/>
+            <column name="password" value="bf5032b43f5ed938c6119ae8f201da8adade6f00"/>
+            <column name="username" value="Lubov.Astakhova@mbww.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="37"/>
+            <column name="email" value="kostyleva@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Катя"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Костылева"/>
+            <column name="password" value="7c4a8d09ca3762af61e59520943dc26494f8941b"/>
+            <column name="username" value="kostyleva@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="38"/>
+            <column name="email" value="SYarmolinskaya@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Svetlana"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Yarmolinskaya"/>
+            <column name="password" value="003b7fd789c1d4ff33e199ce9ed845ab2d150af6"/>
+            <column name="username" value="SYarmolinskaya@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="39"/>
+            <column name="email" value="KApozyants@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Ksenia"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Apozyants"/>
+            <column name="password" value="bd5d88d60cd8242be20e7b777285c7774746855b"/>
+            <column name="username" value="KApozyants@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="42"/>
+            <column name="email" value="IPG@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Planner"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="IPG"/>
+            <column name="password" value="d324a8ad3d7d51430f98bfd53e9887a0b790a3d5"/>
+            <column name="username" value="IPG@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="43"/>
+            <column name="email" value="fakhmedova@arenamb.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Фатима"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Ахмедова"/>
+            <column name="password" value="b8b4f854931bd317627aa497c19a6aa100da728e"/>
+            <column name="username" value="fakhmedova@arenamb.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="44"/>
+            <column name="email" value="kviktorova@arenamb.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Ксения"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Викторова"/>
+            <column name="password" value="c0b82b1ac164048a63c68c77b2596837e01b0692"/>
+            <column name="username" value="kviktorova@arenamb.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="45"/>
+            <column name="email" value="pmarudina@arenamb.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Полина"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Марудина"/>
+            <column name="password" value="3cf3fdf7bd3771808ce2fa9e557967ee9efc1c2f"/>
+            <column name="username" value="pmarudina@arenamb.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="46"/>
+            <column name="email" value="nfilyaev@arenamb.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Николай"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Филяев"/>
+            <column name="password" value="ff6976561fd6b18016ea50d2774faf2b822d749a"/>
+            <column name="username" value="nfilyaev@arenamb.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="47"/>
+            <column name="email" value="eromanov@arenamb.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Евгений"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Романов"/>
+            <column name="password" value="5ccae8c013308f29a4a029787690d74fec9a6f0d"/>
+            <column name="username" value="eromanov@arenamb.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="48"/>
+            <column name="email" value="imamychev@arenamb.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Илья"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Мамичев"/>
+            <column name="password" value="29d47df4b3bf25d315d820473f39846ac536ebbb"/>
+            <column name="username" value="imamychev@arenamb.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="50"/>
+            <column name="email" value="anna.trunova@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Anna"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Trunova"/>
+            <column name="password" value="9fc8131e2b09bd19065aeeb83caef6b8702b9d20"/>
+            <column name="username" value="anna.trunova@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="51"/>
+            <column name="email" value="maria.shmidt@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Maria"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Shmidt"/>
+            <column name="password" value="b5c242ace85218a8a32a40c283d1c3a13b49522d"/>
+            <column name="username" value="maria.shmidt@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="53"/>
+            <column name="email" value="aleksey.kozlov@umww.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Aleksey"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Kozlov"/>
+            <column name="password" value="2fc78393df5229645c824e57f44bf51a88586903"/>
+            <column name="username" value="aleksey.kozlov@umww.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="54"/>
+            <column name="email" value="onikiforova@arenamb.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Olga"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Nikiforova"/>
+            <column name="password" value="97b31bb0e92a229a04921574e38951336b04d097"/>
+            <column name="username" value="onikiforova@arenamb.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="56"/>
+            <column name="email" value="gmityushina@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Galina"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Mityushina"/>
+            <column name="password" value="52cf68ef15a9732fc274466a29a4eb49e257a78d"/>
+            <column name="username" value="gmityushina@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="57"/>
+            <column name="email" value="ytsybina@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Yana"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Tsybina"/>
+            <column name="password" value="e3d8ac4231e5eb866a0fbb790603750e32c170a5"/>
+            <column name="username" value="ytsybina@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="58"/>
+            <column name="email" value="svetlana.smagliy@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Svetlana"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Smagliy"/>
+            <column name="password" value="e7db183a5e84807236200eaebb8dadfe9a575153"/>
+            <column name="username" value="svetlana.smagliy@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="59"/>
+            <column name="email" value="ytsaryk@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Юлия"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Царик"/>
+            <column name="password" value="6039833be06eb7013475868e7deaec42df9144f7"/>
+            <column name="username" value="ytsaryk@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="60"/>
+            <column name="email" value="nprusakova@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Natalia"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Prusakova"/>
+            <column name="password" value="12dbad9eee20f260e633bb87d8498b54f912a825"/>
+            <column name="username" value="nprusakova@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="61"/>
+            <column name="email" value="dnazarova@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Daria"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Nazarova"/>
+            <column name="password" value="726daa6c0b72c013f43937cf7d94c79541a5eddd"/>
+            <column name="username" value="dnazarova@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="62"/>
+            <column name="email" value="vivanitskaya@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Valeriya"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Ivanitskaya"/>
+            <column name="password" value="bc2887c608dd5961336868081672cc63efc1b2a8"/>
+            <column name="username" value="vivanitskaya@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="63"/>
+            <column name="email" value="tmaslina@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Tatiana"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Maslina"/>
+            <column name="password" value="2c45139b8a5541f895d4c94ac494ebd24b67b620"/>
+            <column name="username" value="tmaslina@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="64"/>
+            <column name="email" value="VPlyusnin@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Veniamin"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Plyusnin"/>
+            <column name="password" value="07b9389a3e1ea57dea220e67745423c0d4f5cf12"/>
+            <column name="username" value="VPlyusnin@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="32"/>
+            <column name="email" value="user@test.com"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="User"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="User"/>
+            <column name="password" value="397ab808740c0209c796c030d0abb4fa0ba4bc47"/>
+            <column name="username" value="user"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="31"/>
+            <column name="email" value="admin@test.com"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Admin"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Admin"/>
+            <column name="password" value="d033e22ae348aeb5660fc2140aec35850c4da997"/>
+            <column name="username" value="Admin"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="65"/>
+            <column name="email" value="omitina@havasmedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Olga"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Mitina"/>
+            <column name="password" value="9c7ac827c9d13018b9f48a74c82d960ad48e694e"/>
+            <column name="username" value="omitina@havasmedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="67"/>
+            <column name="email" value="pavel.prokopochkin@umww.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Pavel"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Prokopochkin"/>
+            <column name="password" value="8777d7b5f7fa0728c8710b6006f2289a3a16b382"/>
+            <column name="username" value="pavel.prokopochkin@umww.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="68"/>
+            <column name="email" value="pavel.tambulatov@umww.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Pavel"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Tambulatov"/>
+            <column name="password" value="e718098e2a3d6741f483838db5ff8ce51f18f99b"/>
+            <column name="username" value="pavel.tambulatov@umww.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="69"/>
+            <column name="email" value="alexander.ivanov@umww.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Alexander"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Ivanov"/>
+            <column name="password" value="963c9acd16dfd42c4a274b0c59cca276964f18f4"/>
+            <column name="username" value="alexander.ivanov@umww.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="70"/>
+            <column name="email" value="alena.loshkareva@umww.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Alena"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Loshkareva"/>
+            <column name="password" value="925e09e345c50d0298505fa2d7ef6ba296f66801"/>
+            <column name="username" value="alena.loshkareva@umww.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="71"/>
+            <column name="email" value="polina.prosvirova@umww.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Polina"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Prosvirova"/>
+            <column name="password" value="c9b1cce3d2994724eb2b0725e2c683899caebfb9"/>
+            <column name="username" value="polina.prosvirova@umww.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="72"/>
+            <column name="email" value="ksenia.zazulova@mbww.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Ksenia"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Zazulova"/>
+            <column name="password" value="4e6d53873d9fe59de636b44f80934aee9a4f9189"/>
+            <column name="username" value="ksenia.zazulova@mbww.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="12"/>
+            <column name="email" value="x7@a.ru"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="1"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="2"/>
+            <column name="password" value="20eabe5d64b0e216796e834f52d61fd0b70332fc"/>
+            <column name="username" value="x7@a.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="8"/>
+            <column name="email" value="Nikolay.Simon@dktdigital.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Nikolay"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Simon"/>
+            <column name="password" value="f549cbc0b37924ad1dca377108247f9fa7b9a0c0"/>
+            <column name="username" value="Nikolay.Simon@dktdigital.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="14"/>
+            <column name="email" value="Mikhail.Odinokov@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Odinokov"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Mikhail"/>
+            <column name="password" value="18bd1f1d9e3b13c194071c989ce0ca59dc8cbfc1"/>
+            <column name="username" value="Mikhail.Odinokov@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="15"/>
+            <column name="email" value="Sergei.Mukhanov@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Sergei"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Mukhanov"/>
+            <column name="password" value="0507027688b26d0873ce593a4334f0d8a6e3ae20"/>
+            <column name="username" value="Sergei.Mukhanov@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="16"/>
+            <column name="email" value="Veronica.Borisova@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Veronica"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Borisovа"/>
+            <column name="password" value="d47361a9fa99bcf1c99222822f69c437a4772fc0"/>
+            <column name="username" value="Veronica.Borisova@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="22"/>
+            <column name="email" value="vladimir.garmash@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Vladimir"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Garmash"/>
+            <column name="password" value="4733ed84f3e8e44b31af57f634aa4c95ab739551"/>
+            <column name="username" value="vladimir.garmash@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="26"/>
+            <column name="email" value="oleg.vasilyev@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Олег"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Васильев"/>
+            <column name="password" value="39f33d27cc6aefae01e04d09891042b918e1ba24"/>
+            <column name="username" value="oleg.vasilyev@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="27"/>
+            <column name="email" value="igor.perevozchikov@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Igor"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Perevozchikov"/>
+            <column name="password" value="adf9c41f633a6baf7943ce5ffb70b98ab0ddc601"/>
+            <column name="username" value="igor.perevozchikov@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="30"/>
+            <column name="email" value="artem.nikitin@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Artem"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Nikitin"/>
+            <column name="password" value="12345"/>
+            <column name="username" value="artem.nikitin@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="36"/>
+            <column name="email" value="Ekaterina.Kostyleva@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Ekaterina"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Kostyleva"/>
+            <column name="password" value="1a964ad960747797bcccc23dd0114c95548df198"/>
+            <column name="username" value="Ekaterina.Kostyleva@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="40"/>
+            <column name="email" value="Denis.Lisitsin@dktlab.io"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Denis"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Lisitsin"/>
+            <column name="password" value="69ad5f3a946e7bb20267abfc7b8fab220fe9fe93"/>
+            <column name="username" value="Denis.Lisitsin@dktlab.io"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="41"/>
+            <column name="email" value="Kseniya.Syrchikova@dktdigital.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Kseniya"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Syrchikova"/>
+            <column name="password" value="2afa1b2c85659080a2c11e686703fec3d14e82b8"/>
+            <column name="username" value="Kseniya.Syrchikova@dktdigital.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="1"/>
+            <column name="email" value="a@a.ru"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="Иван"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Иванов"/>
+            <column name="password" value="40bd001563085fc35165329ea1ff5c5ecbdbbeef"/>
+            <column name="username" value="a@a.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="6"/>
+            <column name="email" value="avolftrub@gramant.ru"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="Artem"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Volftrub"/>
+            <column name="password" value="6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2"/>
+            <column name="username" value="avolftrub@gramant.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="5"/>
+            <column name="email" value="artem@gramant.ru"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="Artem"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Admin"/>
+            <column name="password" value="6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2"/>
+            <column name="username" value="artem@gramant.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="7"/>
+            <column name="email" value="artem1@gramant.ru"/>
+            <column name="enabled" valueBoolean="false"/>
+            <column name="firstname" value="AA"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="BBB"/>
+            <column name="password" value="6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2"/>
+            <column name="username" value="artem1@gramant.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="96"/>
+            <column name="email" value="anna.verbitskaya@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Anna"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Verbitskaya"/>
+            <column name="password" value="567e9fdd597bcae4bed5bb936eee533532ea3af4"/>
+            <column name="username" value="anna.verbitskaya@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="97"/>
+            <column name="email" value="natalia.paley@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Natalia"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Paley"/>
+            <column name="password" value="959cf3b6bacd7ac1c5c8ab02b750f2412484afa1"/>
+            <column name="username" value="natalia.paley@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="98"/>
+            <column name="email" value="irina.malinova@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Irina"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Malinova"/>
+            <column name="password" value="cd5bce244615fd066911d307e6c17254e140d6bf"/>
+            <column name="username" value="irina.malinova@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="99"/>
+            <column name="email" value="natalia.gumenyuk@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Natalia"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Gumenyuk"/>
+            <column name="password" value="6d5327d2b345414c247254a60d08240efb852a94"/>
+            <column name="username" value="natalia.gumenyuk@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="100"/>
+            <column name="email" value="anastasia.komarova@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Anastasia"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Komarova"/>
+            <column name="password" value="4a2c3317ab08b405640c621ed4ae0045a199cb10"/>
+            <column name="username" value="anastasia.komarova@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="101"/>
+            <column name="email" value="fedor.gyrgenov@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Fedor"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Gyrgenov"/>
+            <column name="password" value="afcbf200c22544db82d9673e2e4514aa5b382d22"/>
+            <column name="username" value="fedor.gyrgenov@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="102"/>
+            <column name="email" value="lilita.barsegyan@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Lilita"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Barsegyan"/>
+            <column name="password" value="92c93e95098c891e2e0cecdbd9a4ba5374180241"/>
+            <column name="username" value="lilita.barsegyan@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="103"/>
+            <column name="email" value="gayane.chitchyan@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Gayane"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Chitchyan"/>
+            <column name="password" value="cedce7fa7a454c31a0b3124972ef1d4e0007c610"/>
+            <column name="username" value="gayane.chitchyan@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="104"/>
+            <column name="email" value="yulia.gavrisheva@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Yulia"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Gavrisheva (Kulik)"/>
+            <column name="password" value="72a5ddb3f6d945d0156247105d2f74c8f88b518f"/>
+            <column name="username" value="yulia.gavrisheva@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="105"/>
+            <column name="email" value="dmitriy.filatov@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Dmitriy"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Filatov"/>
+            <column name="password" value="c79ed04cc4ac9305532a75bece2cb5e1a2715d97"/>
+            <column name="username" value="dmitriy.filatov@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="106"/>
+            <column name="email" value="anna.begisheva@initiativemedia.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Anna"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Begisheva"/>
+            <column name="password" value="ba467e1e703cd7c25a81778c1644740d1956ac6d"/>
+            <column name="username" value="anna.begisheva@initiativemedia.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="79"/>
+            <column name="email" value="alina.grigoreva@mbww.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Alina"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Grigoreva"/>
+            <column name="password" value="66b20b13cc24075757ac889920f652f1b7854b11"/>
+            <column name="username" value="alina.grigoreva@mbww.ru"/>
+        </insert>
+        <insert tableName="user_account">
+            <column name="id" valueNumeric="107"/>
+            <column name="email" value="elizaveta.belyavtseva@mbww.ru"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="firstname" value="Elizaveta"/>
+            <column name="isusing2fa" valueBoolean="false"/>
+            <column name="lastname" value="Belyavtseva"/>
+            <column name="password" value="c861c2224f8bba1edd2186bb398e0776d21c8d13"/>
+            <column name="username" value="elizaveta.belyavtseva@mbww.ru"/>
+        </insert>
+    </changeSet>
+    <changeSet author="   " id="2018_10_02_01">
+        <sql dbms="postgresql" endDelimiter=";">
+            ALTER SEQUENCE user_account_id_seq START WITH 108; -- set default
+            ALTER SEQUENCE user_account_id_seq RESTART;
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>

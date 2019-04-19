@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="    (generated)" id="1536745145236-5">
+        <insert tableName="role">
+            <column name="id" valueNumeric="3"/>
+            <column name="name" value="ROLE_ADMIN"/>
+        </insert>
+        <insert tableName="role">
+            <column name="id" valueNumeric="4"/>
+            <column name="name" value="ROLE_USER"/>
+        </insert>
+        <insert tableName="role">
+            <column name="id" valueNumeric="7"/>
+            <column name="name" value="ROLE_ADPLANER_PLANNER&#13;&#10;"/>
+        </insert>
+        <insert tableName="role">
+            <column name="id" valueNumeric="8"/>
+            <column name="name" value="ROLE_ADPLANER_BUYER"/>
+        </insert>
+        <insert tableName="role">
+            <column name="id" valueNumeric="5"/>
+            <column name="name" value="ROLE_ADPLANER_SUPER_ADMIN"/>
+        </insert>
+        <insert tableName="role">
+            <column name="id" valueNumeric="6"/>
+            <column name="name" value="ROLE_ADPLANER_ADMIN"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

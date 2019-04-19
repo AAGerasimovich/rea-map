@@ -1,0 +1,13 @@
+sso-local:
+  container_name: sso_local
+  image: sameersbn/postgresql:10
+  ports:
+  - "5101:5432"
+  environment:
+  - DB_USER=pt
+  - DB_PASS=abc
+  - DB_NAME=sso_local,sso_token
+  volumes:
+  - ./tmp/docker/sso-token:/var/lib/db
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="    (generated)" id="1536742974886-2">
+        <insert tableName="oauth_client_details">
+            <column name="client_id" value="pesonaClientIdPassword"/>
+            <column name="resource_ids" value=""/>
+            <column name="client_secret" value="e5e9fa1ba31ecd1ae84f75caaa474f3a663f05f4"/>
+            <column name="scope" value="read,write,READ_SCOPE,READ,SCOPE_READ"/>
+            <column name="authorized_grant_types" value="password,refresh_token"/>
+            <column name="web_server_redirect_uri"/>
+            <column name="authorities" value="ROLE_CLIENT"/>
+            <column name="access_token_validity"/>
+            <column name="refresh_token_validity"/>
+            <column name="additional_information"/>
+            <column name="autoapprove" value=""/>
+        </insert>
+        <insert tableName="oauth_client_details">
+            <column name="client_id" value="fooClientIdPassword"/>
+            <column name="resource_ids" value=""/>
+            <column name="client_secret" value="e5e9fa1ba31ecd1ae84f75caaa474f3a663f05f4"/>
+            <column name="scope" value="read,write,READ_SCOPE,READ,SCOPE_READ"/>
+            <column name="authorized_grant_types" value="password,refresh_token"/>
+            <column name="web_server_redirect_uri"/>
+            <column name="authorities" value="ROLE_CLIENT"/>
+            <column name="access_token_validity" valueNumeric="10"/>
+            <column name="refresh_token_validity" valueNumeric="30"/>
+            <column name="additional_information"/>
+            <column name="autoapprove" value=""/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

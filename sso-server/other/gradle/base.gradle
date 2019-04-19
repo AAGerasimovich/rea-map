@@ -1,0 +1,5 @@
+//use it by apply from: "https://mymavenrepo.com/repo/${myMavenRepoReadToken}/soyuz-gradle/1.0/base-1.0.gradle"
+
+["pluginsAndProperties", "cl", "configuration.provided", "generateSources", "java8", "logging"].each {
+    apply from: "${rootProject.projectDir}/other/gradle/${it}.gradle"
+}

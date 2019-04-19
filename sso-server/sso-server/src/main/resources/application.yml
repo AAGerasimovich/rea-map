@@ -1,0 +1,64 @@
+spring:
+  liquibase:
+    enabled: false
+    change-log: classpath:liquibase/sso-server/changelog.xml
+  application:
+    name: default_sso
+  profiles:
+    active: default
+
+#debug: true
+server:
+  servlet:
+    context-path: /spring-security-oauth-server
+  port: 8081
+#management.security.enabled=false
+#management.trace.include=parameters,errors
+#endpoints.trace.sensitive=false
+db:
+  app:
+    datasource:
+      driver-class: org.postgresql.Driver
+      jdbc-url: jdbc:postgresql://localhost:5101/sso_local
+      user: pt
+      password: abc
+      min-pool-size: 3
+      max-pool-size: 25
+      max-statements: 200
+      test-connection-on-checkout: true
+      acquire-retry-attempts: 5
+  token:
+    datasource:
+      driver-class: org.postgresql.Driver
+      jdbc-url: jdbc:postgresql://localhost:5101/sso_token
+      user: pt
+      password: abc
+      min-pool-size: 3
+      max-pool-size: 25
+      max-statements: 200
+      test-connection-on-checkout: true
+      acquire-retry-attempts: 5
+hibernate:
+  dialect: org.hibernate.dialect.PostgreSQL94Dialect
+  show_sql: false
+  hbm2ddl:
+    auto: update
+#
+security:
+  oauth2:
+    resource:
+      filter-order: 3
+#
+basic:
+  username: pesonaClientIdPassword
+  password: secret
+#
+liquibase:
+  run: true
+liquibaseToken:
+  run: true
+  change-log: classpath:liquibase/sso-token/changelog.xml
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://eurekaadm:wjnk64X3TaDn@eureka.advcloud.ru/eureka
